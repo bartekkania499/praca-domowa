@@ -1,4 +1,4 @@
-rom klassbryl import wszst
+from klassbryl import wszst
 
 
 print('Co obliczasz \n 1 - objętość sześcianu \n 2 - objętość prostopadłościanu \n 3 - objętość graniastosłupa \n 4 - objętość ostrosłupa \n 5 - objętość walca \n 6 - objętość KULI \n 7 - pole sześcianu \n 8 - pole prostopadłościanu \n 9 - pole graniastosłupa \n 10 - pole ostrosłupa \n 11 - pole walca \n 12 - pole KULI')
@@ -72,3 +72,23 @@ if inp == 12:
     lista = [Ouagadougou]
     for obj in lista:
         obj.polekula()
+
+
+
+
+from math import pi
+class wszst:
+ 
+
+    def __init__(self,a,b,c,r,h,pp,pb):
+        self.a = a
+        self.b = b
+        self.c = c
+        self.r = r
+        self.h = h
+        self.pp = pp
+        self.pb = pb
+
+
+
+  
